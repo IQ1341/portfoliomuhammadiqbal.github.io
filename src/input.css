@@ -30,3 +30,5 @@ body{
 #dark-toggle:checked ~ label div.toggle-circle{
     @apply translate-x-3
 }
+
+  

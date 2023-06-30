@@ -12,7 +12,7 @@ module.exports = {
         primary: 'hsl(183, 42%, 37%)',
         dark: '#0f172a ',
         secondary: '#64748b',
-        bgr: '#F7DDA4',
+        bgr: '#F7DDA4',       
       },
       screens:{
         '2xl': '1320px',

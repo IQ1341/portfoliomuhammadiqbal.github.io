@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks form message</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: 'hsl(183, 42%, 37%)',
+                hov: 'hsl(190, 42%, 37%)',
+                dark: '#0f172a ',
+                secondary: '#64748b',
+                bgr: '#578f8c',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="lg:bg-[url('dist/img/bg.jpg')] bg-cover bg-no-repeat  bg-[url('dist/img/bg2.jpg')] bg-bgr">
+    <section class="text-white body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <img class="lg:w-1/6 md:w-3/6 w-2/6 mb-6  object-cover object-center rounded" alt="hero" src="dist/img/thankyou.jpg">
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Thank you for contacting me</h1>
+            <p class="mb-8 leading-relaxed">Ga ada pamer-pamer bro,</br> pd dulu aja yakan .....!</p>
+            <div class="flex justify-center">
+              <a href="/index.html" class="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-hov rounded text-lg">Go Back <span class="ml-3 mt-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75L14.25 12m0 0l2.25 2.25M14.25 12l2.25-2.25M14.25 12L12 14.25m-2.58 4.92l-6.375-6.375a1.125 1.125 0 010-1.59L9.42 4.83c.211-.211.498-.33.796-.33H19.5a2.25 2.25 0 012.25 2.25v10.5a2.25 2.25 0 01-2.25 2.25h-9.284c-.298 0-.585-.119-.796-.33z" />
+              </svg>
+              </span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="dist/js/script.js"></script>
+</body>
+</html>
