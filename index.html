@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolioku | Muhammad Iqbal</title>
     <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
   document.documentElement.classList.add('dark')
@@ -39,7 +42,7 @@
                                 <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">About</a>
                             </li>
                             <li class="group">
-                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Project</a>
                             </li>
                             <li class="group">
                                 <a href="#client" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Client</a>
@@ -79,23 +82,34 @@
    
     <!-- Hero section start -->
     <section id="home" class="pt-36 dark:bg-dark">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl ">Halo Kaum pemalas👋, Saya <span class="block font-bold text-dark text-4xl md:text-5xl dark:text-white">Muhammad Iqbal</span></h1>
-                    <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">Saya Adalah |  <span id="typed" class="text-dark dark:text-white"></span></h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Saya bukan idiot, hanya sebagian dari pikiran saja yang hilang. <span class="text-dark font-bold dark:text-white">santay masih Proses...!</span></p>
-                    <a href="#contact"  class=" text-base  font-semibold text-white bg-primary  px-8 py-3 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out ">Contact Me 
-                    </a>
-                </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img src="dist/img/profile.png" alt="ngabowi" class="border-b-4 border-primary max-w-full mx-auto relative z-10">  
-                    </div>  
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-primary md:text-xl ">
+                    Halo! Saya
+                    <span class="block font-bold text-dark text-4xl md:text-5xl dark:text-white">Muhammad Iqbal</span>
+                </h1>
+                <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+                    Saya seorang | <span id="typed" class="text-dark dark:text-white"></span>
+                </h2>
+                <p class="font-medium text-secondary mb-10 leading-relaxed">
+                    Seorang full-stack developer yang antusias membangun solusi digital yang berdampak.
+                    <span class="text-dark font-bold dark:text-white">Sedang terus belajar & berkembang!</span>
+                </p>
+                <a href="#contact"
+                    class="text-base font-semibold text-white bg-primary px-8 py-3 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">
+                    Hubungi Saya
+                </a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="relative mt-10 lg:mt-0 lg:right-0">
+                    <img src="dist/img/profile.png" alt="Muhammad Iqbal" class="border-b-4 border-primary max-w-full mx-auto relative z-10">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
     <!-- Hero section end -->
 
     <!-- About section start -->
@@ -105,11 +119,13 @@
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
                     <h2 class="font-bold text-3xl text-dark mb-5 max-w-md lg:text-4xl dark:text-white">Selamat datang di portfolio website saya!</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah seorang web developer yang berdedikasi dengan pengalaman luas dalam menciptakan website yang menarik secara visual dan ramah pengguna. Dengan fokus yang kuat pada pengembangan front-end dan kepekaan terhadap desain, saya berusaha memberikan pengalaman digital yang luar biasa.</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+          Saya adalah seorang <span class="text-primary font-semibold">Fullstack Web Developer</span> yang berpengalaman dalam mengembangkan aplikasi web dari sisi frontend maupun backend. Dengan pendekatan yang berfokus pada performa, fungsionalitas, dan user experience, saya berkomitmen untuk menghadirkan solusi digital yang efisien, modern, dan scalable.
+        </p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mampir Bentarlah Bang...!</h3>
-                    <p class="font-medium text-secondary mb-6 max-w-xl">Portfolio website ini adalah tempat untuk memamerkan proyek-proyek terbaik saya. Meskipun mereka mungkin sederhana, saya dengan bangga menunjukkan kemajuan saya dan dedikasi saya dalam mengembangkan keterampilan saya sebagai web developer.Saya percaya bahwa kerjasama dan belajar dari orang lain adalah kunci untuk pertumbuhan dan kesuksesan. Jika Anda memiliki saran, kritik, atau bahkan proyek yang ingin Anda kolaborasikan dengan saya, saya sangat terbuka untuk diskusi,Ikuti saya di media sosial lainnya...!</p>
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari Terhubung dan Berkolaborasi!</h3>
+                    <p class="font-medium text-secondary mb-6 max-w-xl">Portofolio ini merupakan rangkuman dari berbagai proyek yang telah saya kerjakan dengan semangat belajar dan inovasi. Saya percaya bahwa kerja sama, diskusi terbuka, dan masukan yang membangun adalah kunci untuk terus berkembang. Jangan ragu untuk menghubungi saya melalui media sosial yang tersedia—saya sangat terbuka untuk peluang kolaborasi maupun diskusi seputar teknologi!</p>
                     <div class="flex items-center">
                         <!-- youtube -->
                         <a href="https://youtube.com/@ITUnivers03" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary">
@@ -143,88 +159,486 @@
     </section>
     <!-- About section end -->
 
+<section id="skills" class="pt-24 pb-20 bg-gray-100 dark:bg-dark">
+  <div class="container">
+    <div class="text-center mb-10">
+      <h4 class="font-bold uppercase text-primary text-lg mb-2">Skills</h4>
+      <h2 class="font-bold text-3xl text-dark dark:text-white">Bahasa & Teknologi yang Dikuasai</h2>
+      <p class="text-secondary mt-2 text-base lg:text-lg">
+        Berikut adalah beberapa bahasa pemrograman & teknologi yang saya kuasai:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center">
+      <!-- Template Skill Card -->
+      <!-- Gunakan komponen berikut berulang kali -->
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-javascript-plain text-5xl text-yellow-400 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">JavaScript</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-typescript-plain text-5xl text-blue-500 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">TypeScript</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-php-plain text-5xl text-indigo-500 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">PHP</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-c-plain text-5xl text-blue-500 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">C</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-dart-plain text-5xl text-sky-600 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Dart</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-laravel-plain text-5xl text-red-600 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Laravel</p>
+      </div>
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-react-original text-5xl text-sky-400 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">React</p>
+      </div>
+
+       <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-express-original text-5xl text-gray-700 dark:text-white group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Express</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-flutter-plain text-5xl text-blue-400 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Flutter</p>
+      </div>
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-nodejs-plain text-5xl text-green-600 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Node.js</p>
+    </div>
+    <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-bootstrap-plain text-5xl text-purple-600 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Bootstrap</p>
+    </div>
+    
+    <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+      <i class="devicon-tailwindcss-plain text-5xl text-sky-500 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+      <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Tailwind CSS</p>
+    </div>
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-mysql-plain text-5xl text-blue-700 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">MySQL</p>
+      </div>
+
+
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-mongodb-plain-wordmark text-5xl text-green-700 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">MongoDB</p>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-800 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer w-full flex flex-col items-center">
+        <i class="devicon-firebase-plain text-5xl text-orange-500 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"></i>
+        <p class="mt-3 font-semibold text-dark dark:text-white group-hover:text-primary transition-colors duration-300">Firebase</p>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
     <!-- portfolio section start -->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
-    <div class="container">
-        <div class="w-full px-4">
-            <div class="max-w-xl mx-auto text-center mb-16">
-                <h4 class="font-semibold text-lg text-primary mb-2 ">Portfolio</h4>
-                <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Project Terbaru</h2>
-                <p class="font-medium text-md text-secondary md:text-lg">Berikut merupakan proyek-proyek yang saya buat sendiri mulai dari awal sampai sekarang,Meskipun mereka mungkin sederhana, saya dengan bangga menunjukkan kemajuan saya dan dedikasi saya dalam mengembangkan keterampilan saya sebagai web developer</p>
-            </div>
+<section id="portfolio" class="pt-36 pb-16  dark:bg-slate-800">
+  <div class="container">
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
+        <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+        <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Project Terbaru</h2>
+        <p class="font-medium text-md text-secondary md:text-lg">
+          Berikut merupakan proyek-proyek yang saya buat sendiri mulai dari awal sampai sekarang. Meskipun mereka mungkin sederhana, saya dengan bangga menunjukkan kemajuan saya dan dedikasi saya dalam mengembangkan keterampilan saya sebagai web developer.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-4" data-aos="fade-up" data-aos-delay="200">
+      <!-- CARD 1 -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
+          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
+            View Project
+            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
+          </a>
         </div>
-        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto ">
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden dark:bg-slate-800">
-                    <img src="dist/img/8.png" alt="html-css-frame" width="w-full">
-                    <div class="py-4 px-4">
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Membuat Website Antrian online poliklinik</h3>
-                    <p class="font-medium text-base text-secondary mb-6">Website Antrian online ini,bgaian frontendnya menngunakan HTML dan Bootstrap serta bagian backandnya menggunakan Laravel</p>
-                    <a href="https://github.com/IQ1341" target="_blank" class="py-2 px-2 justify-center rounded-lg flex  border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary"><span class="mr-2">View Project</span>    
-                             <svg role="img"  width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>
-                    </div>
-                </div>
-            </div>
+      </div>
 
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="dist/img/7.png" alt="html-css-frame" width="w-full">
-                    <div class="py-4 px-4">
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white tru">Membuat app contact sederhana dengan Laravel</h3>
-                    <p class="font-medium text-base text-secondary mb-6">Membuat aplikasi contact sederhana berupa website menggunakan framework dari PHP yaitu Laravel serta implementasi CRUDnya</p>
-                    <a href="https://github.com/IQ1341" target="_blank" class="py-2 px-2 justify-center rounded-lg flex  border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary"><span class="mr-2">View Project</span>    
-                        <svg role="img"  width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>
-                    </div>
-                </div>
-            </div>
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
+          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
+            View Project
+            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
+          </a>
+        </div>
+      </div>
 
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="dist/img/5.png" alt="html-css-frame" width="w-full">
-                    <div class="py-4 px-4">
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Implementasi CRUD dengan PHP</h3>
-                    <p class="font-medium text-base text-secondary mb-6">Membuat website Form registrasi  dan mengimplementasikan fungsi CRUD pada website tersebut mennggunakan PHP</p>
-                    <a href="https://github.com/IQ1341" target="_blank" class="py-2 px-2 justify-center rounded-lg flex  border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary"><span class="mr-2">View Project</span>    
-                        <svg role="img"  width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>
-                    </div>
-                </div>
-            </div>
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
+          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
+            View Project
+            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
+          </a>
+        </div>
+      </div>
 
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="dist/img/3.png" alt="html-css-frame" width="w-full">
-                    <div class="py-4 px-4">
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">portfolii sederhana</h3>
-                    <p class="font-medium text-base text-secondary mb-6">Membuat website portfolii sederhana menggunakan html dan css native,website ini di tujukan untuk memenuhi tugas kampus</p>
-                    <a href="https://github.com/IQ1341" target="_blank" class="py-2 px-2 justify-center rounded-lg flex  border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary"><span class="mr-2">View Project</span>    
-                        <svg role="img"  width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>
-                    </div>
-                </div>
-            </div>
+      
 
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="dist/img/4.png" alt="html-css-frame" width="w-full">
-                    <div class="py-4 px-4">
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">HTML & CSS (implementasi Frame)</h3>
-                    <p class="font-medium text-base text-secondary mb-6">Membuat website sederhana menggunakan fungsi Frame pada HTML dan CSS,design website tersebut mendapat refrensi dari website resmi Politeknik Negeri Jember</p>
-                    <a href="https://github.com/IQ1341" target="_blank" class="py-2 px-2 justify-center rounded-lg flex  border border-secondary hover:border-primary hover:bg-primary hover:text-white text-secondary"><span class="mr-2">View Project</span>    
-                        <svg role="img"  width="25" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                    </a>
-                    </div>
+      <!-- CARD 2 (copy and modify as needed) -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/8.png" alt="project-2" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
+          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
+            View Project
+            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- portfolii section end -->
+
+    
+
+    <!-- client section start -->
+    <!-- client section end -->
+    
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100 dark:bg-dark">
+        <div class="container">
+            <!-- Heading -->
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan Terkini</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">
+                        Beberapa blog pribadi sebagai sarana berbagi pemikiran, pengalaman, dan dokumentasi perjalanan saya.
+                    </p>
                 </div>
             </div>
             
+            <!-- Blog Cards -->
+            <div class="flex flex-wrap justify-center">
+                <!-- Blog Card 1 -->
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
+                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
+                        <div class="py-6 px-6">
+                            <h3>
+                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
+                                    Ngoding Seru Bang!
+                                </a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">
+                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
+                            </p>
+                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
+                                Baca Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
+                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
+                        <div class="py-6 px-6">
+                            <h3>
+                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
+                                    Ngoding Seru Bang!
+                                </a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">
+                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
+                            </p>
+                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
+                                Baca Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
+                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
+                        <div class="py-6 px-6">
+                            <h3>
+                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
+                                    Ngoding Seru Bang!
+                                </a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-6">
+                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
+                            </p>
+                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
+                                Baca Selengkapnya
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tambahkan Blog Card lainnya dengan struktur sama -->
+            </div>
         </div>
-    </div>
     </section>
-    <!-- portfolii section end -->
+    <!-- Blog Section End -->
+    
+    <section id="pengalaman" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-900">
+        <div class="container">
+            <div class="text-center mb-16 px-4" data-aos="fade-up">
+                <h4 class="text-primary font-semibold text-lg mb-2">Pengalaman</h4>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark dark:text-white">Riwayat Pengalaman</h2>
+                <p class="mt-4 text-secondary md:text-lg">Berikut adalah timeline beberapa pengalaman profesional & organisasi saya.</p>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="relative border-l-4 border-primary pl-6 space-y-10 px-4" data-aos="fade-up" data-aos-delay="200">
+                
+                <!-- Item 1 -->
+                <div class="relative group">
+                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-dark dark:text-white">Magang Web Developer – PT Digital Kreatif</h3>
+                        <p class="text-sm text-primary font-medium mt-1">Jan 2024 – Apr 2024</p>
+                        <p class="text-base text-secondary mt-2">Mengembangkan website dengan Laravel dan React. Berkolaborasi dengan tim UI/UX dalam project internal.</p>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="relative group">
+                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-dark dark:text-white">Freelance Web Developer</h3>
+                        <p class="text-sm text-primary font-medium mt-1">Sep 2023 – Des 2023</p>
+                        <p class="text-base text-secondary mt-2">Membangun sistem booking studio musik berbasis web menggunakan PHP, Bootstrap, dan MySQL.</p>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="relative group">
+                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-dark dark:text-white">Panitia Seminar Nasional Teknologi</h3>
+                        <p class="text-sm text-primary font-medium mt-1">Mei 2023</p>
+                        <p class="text-base text-secondary mt-2">Bertugas sebagai divisi publikasi & dokumentasi dalam seminar nasional bertema AI dan Web 4.0.</p>
+                    </div>
+                </div>
+                
+                <!-- Tambahkan item lainnya di sini -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- layanan section start -->
+    <section id="layanan" class="pt-36 pb-24 bg-white dark:bg-slate-900">
+        <div class="container">
+            <!-- Heading -->
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
+                    <h4 class="text-lg text-primary font-semibold mb-2">Layanan</h4>
+                    <h2 class="text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl mb-4">Apa yang Saya Tawarkan</h2>
+                    <p class="text-secondary md:text-lg">
+                        Saya menyediakan berbagai layanan dalam bidang web development dan teknologi digital.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Service Cards -->
+            <div class="flex flex-wrap justify-center gap-8 px-4" data-aos="fade-up" data-aos-delay="100">
+                <!-- Layanan 1 -->
+                <div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="mb-4">
+                        <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+                            💻
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Pembuatan Website</h3>
+                    <p class="text-secondary text-base">
+                        Membuat website responsif dan cepat untuk kebutuhan portofolio, bisnis, atau toko online berbasis HTML, Tailwind, React, dan Laravel.
+                    </p>
+                </div>
+                
+                <!-- Layanan 2 -->
+                <div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="mb-4">
+                        <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+                            ⚙️
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Maintenance & Perbaikan</h3>
+                    <p class="text-secondary text-base">
+                        Menyediakan jasa update konten, memperbaiki error, optimasi SEO dan performa website yang sudah berjalan.
+                    </p>
+                </div>
+                
+                <!-- Layanan 3 -->
+                <div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="mb-4">
+                        <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+                            📱
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Integrasi API & Mobile</h3>
+                    <p class="text-secondary text-base">
+                        Integrasi REST API dengan frontend atau mobile app (Flutter) seperti fitur login, notifikasi, realtime data, dan lainnya.
+                    </p>
+                </div>
 
-    <!-- client section start -->
+                <div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+  <div class="mb-4">
+    <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+      📲
+    </div>
+  </div>
+  <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Pembuatan Aplikasi Mobile</h3>
+  <p class="text-secondary text-base">
+    Menerima jasa pembuatan aplikasi mobile multiplatform (Android & iOS) menggunakan Flutter. Cocok untuk UMKM, sekolah, organisasi, dan proyek individu.
+  </p>
+</div>
+
+<!-- Layanan 6: Pembuatan Server & Hosting -->
+<div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+  <div class="mb-4">
+    <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+      🌐
+    </div>
+  </div>
+  <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Pembuatan Server & Hosting</h3>
+  <p class="text-secondary text-base">
+    Menyediakan layanan setup server (VPS, shared hosting, Vercel, Firebase Hosting), konfigurasi domain, SSL, dan deploy aplikasi web secara aman & efisien.
+  </p>
+</div>
+
+
+                <!-- Layanan 3 -->
+                <div class="w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+  <div class="mb-4">
+    <div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg text-2xl">
+      🔧
+    </div>
+  </div>
+  <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Pembuatan Alat IoT</h3>
+  <p class="text-secondary text-base">
+    Membuka jasa pembuatan alat berbasis IoT (ESP32, sensor, relay, dll) terhubung ke cloud (Firebase/REST API). Cocok untuk tugas akhir, proyek skripsi, dan kebutuhan sistem monitoring.
+  </p>
+</div>
+            </div>
+        </div>
+    </section>
+    <!-- layanan section end -->
+<!-- sertifikasi section start -->
+<section id="sertifikasi" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-900">
+  <div class="container">
+    <!-- Heading -->
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
+        <h4 class="text-lg text-primary font-semibold mb-2">Sertifikasi</h4>
+        <h2 class="text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl mb-4">Pengakuan Kompetensi</h2>
+        <p class="text-secondary md:text-lg">Berikut adalah beberapa sertifikat yang saya peroleh dari pelatihan dan program pengembangan skill.</p>
+      </div>
+    </div>
+
+    <!-- Sertifikat Cards -->
+    <div class="flex flex-wrap justify-center gap-8 px-4" data-aos="fade-up" data-aos-delay="100">
+      <!-- Sertifikat 1 -->
+      <div onclick="openModal('img1')" class="cursor-pointer w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+        <img id="img1" src="./dist/img/8.png" alt="sertifikat 1" class="w-full rounded-md mb-4 object-cover h-48">
+        <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Back-End Developer - Dicoding</h3>
+        <p class="text-sm text-secondary">Diterbitkan: Jan 2024</p>
+      </div>
+
+      <!-- Sertifikat 2 -->
+      <div onclick="openModal('img2')" class="cursor-pointer w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
+        <img id="img2" src="https://i.imgur.com/IdYlxZg.jpg" alt="sertifikat 2" class="w-full rounded-md mb-4 object-cover h-48">
+        <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Front-End Developer - Coursera</h3>
+        <p class="text-sm text-secondary">Diterbitkan: Okt 2023</p>
+      </div>
+
+      <!-- Tambah lebih banyak sertifikat di sini -->
+    </div>
+  </div>
+</section>
+<!-- sertifikasi section end -->
+
+<div id="imageModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 hidden">
+  <div class="relative">
+    <button onclick="closeModal()" class="absolute -top-6 -right-6 bg-red-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-xl shadow-lg hover:bg-red-600 transition duration-300">
+      &times;
+    </button>
+    <img id="modalImg" src="" alt="Zoomed Sertifikat" class="max-w-4xl max-h-[80vh] rounded-xl border-4 border-white shadow-2xl">
+  </div>
+</div>
+
+    <!-- sertifikasi section end -->
+    
+    
+    <!-- statistik section start -->
+    <section id="statistik" class="pt-36 pb-24 bg-white dark:bg-slate-900">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
+                    <h4 class="text-lg text-primary font-semibold mb-2">Statistik</h4>
+                    <h2 class="text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl mb-4">Pencapaian Saya</h2>
+                    <p class="text-secondary md:text-lg">Berikut adalah beberapa pencapaian yang berhasil saya raih selama berkarya dan belajar.</p>
+                </div>
+            </div>
+            
+            <!-- Counters -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 px-4 text-center" data-aos="fade-up" data-aos-delay="100">
+                <!-- Counter 1 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
+                    <h3 class="text-4xl font-bold text-primary mb-2">20+</h3>
+                    <p class="text-dark dark:text-white text-lg font-medium">Project Selesai</p>
+                </div>
+                
+                <!-- Counter 2 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
+                    <h3 class="text-4xl font-bold text-primary mb-2">5+</h3>
+                    <p class="text-dark dark:text-white text-lg font-medium">Klien Freelance</p>
+                </div>
+                
+                <!-- Counter 3 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
+                    <h3 class="text-4xl font-bold text-primary mb-2">10+</h3>
+                    <p class="text-dark dark:text-white text-lg font-medium">Sertifikasi</p>
+                </div>
+                
+                <!-- Counter 4 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
+                    <h3 class="text-4xl font-bold text-primary mb-2">500+</h3>
+                    <p class="text-dark dark:text-white text-lg font-medium">Commit GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- statistik section end -->
+    
     <section id="client" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
         <div class="container">
             <div class="w-full px-4">
@@ -258,71 +672,35 @@
             </div>
         </div>
     </section>
-    <!-- client section end -->
 
-    <!-- blog section start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-100 dark:bg-dark">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2 ">Blog</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan terkini</h2>
-                    <p class="font-medium text-md text-secondary md:text-lg">Berikut merupakan beberapa blog yang saya buat sendiri sebagai platform untuk mengekspresikan diri, membagikan cerita hidup, atau mendokumentasikan pengalaman saya.</p>
-                </div>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
-                        <img src="https://picsum.photos/id/9/800/600" alt="programing" class="w-full">
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Nngoding seru bang!</a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6 ">Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
-                        <img src="https://picsum.photos/id/1/800/600" alt="Gambar Nature">
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Ngopi cuy!</a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6 ">"Rahasia kesuksesan pagi yang berenergi? Ternyata, jawabannya ada di dalam secangkir kopi yang sedap."</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
-                        <img src="https://picsum.photos/id/120/800/600" alt="Gambar Nature">
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Belajar Debian dari awal</a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6 ">Memahami dasar-dasar sistem operasi Linux dan menguasai salah satu distribusi Linux paling populer di dunia.</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
-                        <img src="https://picsum.photos/id/1029/800/600" alt="Gambar Nature">
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Konfigurasi jaringan menggunakan cisco paket tracer</a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6 ">memahami bagaimana komputer dan perangkat lain saling terhubung dan berkomunikasi dalam suatu jaringan.</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- blog section end -->
+<!-- cv download section start -->
+<section id="cv" class="pt-24 pb-24 bg-slate-100 dark:bg-slate-900">
+  <div class="container">
+    <div class="w-full text-center px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark dark:text-white mb-6">
+        Tertarik dengan Saya?
+      </h2>
+      <p class="text-secondary text-base md:text-lg mb-8">
+        Unduh CV saya untuk mengetahui lebih lanjut tentang latar belakang, keahlian, dan pengalaman saya.
+      </p>
+
+      <a href="assets/CV-MuhammadIqbal.pdf" 
+         download 
+         class="inline-flex items-center px-6 py-3 rounded-lg text-white bg-primary hover:bg-primary/90 transition duration-300 shadow-lg">
+        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" 
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" 
+                d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
+        </svg>
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+<!-- cv download section end -->
+
+
+
 
     <!-- contact section stasrt -->
     <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
@@ -464,12 +842,38 @@
 <script src="dist/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 <script>
+
+     function openModal(imgId) {
+    const imgSrc = document.getElementById(imgId).src;
+    document.getElementById('modalImg').src = imgSrc;
+    document.getElementById('imageModal').classList.remove('hidden');
+  }
+
+  function closeModal() {
+    document.getElementById('imageModal').classList.add('hidden');
+  }
     var typed = new Typed('#typed', {
-        strings: ['Programer','Web-Developer','Network-Engineer',],
+        strings: ['Programer','Full Stack-Developer','Network-Engineer',],
         typeSpeed: 80,
         backSpeed: 50,
         loop: true
     });
+
+    AOS.init({
+    duration: 800,
+    once: true,
+  });
+
+   const counters = document.querySelectorAll("[data-count]");
+  const options = { duration: 2 };
+
+  counters.forEach(counter => {
+    const countUp = new CountUp(counter, counter.dataset.count, options);
+    if (!countUp.error) {
+      countUp.start();
+    }
+  });
+
 </script>
 </body>
 </html>
