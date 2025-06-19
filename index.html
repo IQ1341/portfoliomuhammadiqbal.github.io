@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolioku | Muhammad Iqbal</title>
-    <link href="dist/output.css" rel="stylesheet" />
+    <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -45,10 +45,10 @@
                                 <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Project</a>
                             </li>
                             <li class="group">
-                                <a href="#client" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Client</a>
+                                <a href="#pengalaman" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Experience</a>
                             </li>
                             <li class="group">
-                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Blog</a>
+                                <a href="#sertifikasi" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Certificate</a>
                             </li>
                             <li class="group">
                                 <a href="#contact" class="text-base text-dark py-2  mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
@@ -96,10 +96,16 @@
                     Seorang full-stack developer yang antusias membangun solusi digital yang berdampak.
                     <span class="text-dark font-bold dark:text-white">Sedang terus belajar & berkembang!</span>
                 </p>
-                <a href="#contact"
-                    class="text-base font-semibold text-white bg-primary px-8 py-3 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out">
-                    Hubungi Saya
-                </a>
+                <a href="./assets/Muhammad_Iqbal.pdf" 
+         download 
+         class="inline-flex items-center px-6 py-3 rounded-lg text-white bg-primary hover:bg-primary/90 transition duration-300 shadow-lg">
+        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" 
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" 
+                d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
+        </svg>
+        Download CV
+      </a>
             </div>
             <div class="w-full self-end px-4 lg:w-1/2">
                 <div class="relative mt-10 lg:mt-0 lg:right-0">
@@ -254,8 +260,9 @@
 
 
 
-    <!-- portfolio section start -->
-<section id="portfolio" class="pt-36 pb-16  dark:bg-slate-800">
+ <!-- portfolio section start -->
+  <!-- portfolio section start -->
+<section id="portfolio" class="pt-36 pb-16 dark:bg-slate-800">
   <div class="container">
     <div class="w-full px-4">
       <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
@@ -268,192 +275,220 @@
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-4" data-aos="fade-up" data-aos-delay="200">
-      <!-- CARD 1 -->
-      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
-        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+
+      <!-- PROYEK TERBARU -->
+      <!-- CARD 1 - Booking Lapangan Dispora -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+  <img src="dist/img/project/pureflow.png" alt="pureflow" class="w-full h-56 object-cover" />
+  <div class="p-5">
+    <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">PureFlow – Monitoring Air Budidaya Lele</h3>
+    <p class="text-secondary mb-4">Aplikasi <strong>Flutter + IoT</strong> untuk memantau kualitas air kolam lele seperti suhu dan kekeruhan secara real-time menggunakan sensor dan Firebase.</p>
+    <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+  </div>
+</div>
+
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <img src="dist/img/project/smartfloww.png" alt="smartflow" class="w-full h-56 object-cover" />
         <div class="p-5">
-          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
-          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
-          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
-            View Project
-            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
-          </a>
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">SmartFlow – Monitoring Air</h3>
+          <p class="text-secondary mb-4">Aplikasi <strong>Flutter + IoT</strong> untuk memantau <strong>debit dan volume air</strong> secara real-time menggunakan sensor flow dan Firebase.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
         </div>
       </div>
 
-      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
-        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+      <!-- CARD: Hamaguar -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <img src="dist/img/project/hama.png" alt="hamaguar" class="w-full h-56 object-cover" />
         <div class="p-5">
-          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
-          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
-          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
-            View Project
-            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
-          </a>
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">HamaGuard – Deteksi Hama</h3>
+          <p class="text-secondary mb-4">Aplikasi <strong>IoT + Flutter</strong> berbasis sensor PIR & kamera untuk mendeteksi keberadaan hama secara otomatis di area pertanian.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
         </div>
       </div>
 
-      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
-        <img src="dist/img/8.png" alt="project-1" class="w-full h-56 object-cover" />
+      <!-- CARD: Flood Detection -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <img src="dist/img/project/flood.png" alt="flood-detection" class="w-full h-56 object-cover" />
         <div class="p-5">
-          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
-          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
-          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
-            View Project
-            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
-          </a>
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Flood Detection</h3>
+          <p class="text-secondary mb-4">Aplikasi Flutter + IoT dengan sensor ultrasonic untuk mendeteksi ketinggian air sungai dan memberikan peringatan potensi banjir secara real-time.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
         </div>
       </div>
 
-      
-
-      <!-- CARD 2 (copy and modify as needed) -->
-      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
-        <img src="dist/img/8.png" alt="project-2" class="w-full h-56 object-cover" />
+      <!-- CARD: AntiSpy Security System -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <img src="dist/img/project/AntiSpy.png" alt="antispy" class="w-full h-56 object-cover" />
         <div class="p-5">
-          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
-          <p class="text-secondary mb-4">Website ini menggunakan <strong>HTML</strong> dan <strong>Bootstrap</strong> untuk frontend dan <strong>Laravel</strong> untuk backend.</p>
-          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">
-            View Project
-            <svg class="ml-2 w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 ..."/></svg>
-          </a>
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">AntiSpy – Keamanan Rumah</h3>
+          <p class="text-secondary mb-4">Aplikasi <strong>Flutter + ESP32-CAM</strong> untuk deteksi gerakan dan monitoring keamanan rumah secara online, dengan fitur snapshot dan riwayat intrusi.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
         </div>
       </div>
+
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+  <img src="dist/img/project/PETRAS.png" alt="petras" class="w-full h-56 object-cover" />
+  <div class="p-5">
+    <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Petras – Adopsi & Komunitas Pecinta Kucing</h3>
+    <p class="text-secondary mb-4">Aplikasi web berbasis <strong>Laravel</strong> yang memfasilitasi adopsi kucing, manajemen shelter, serta pemberdayaan komunitas pecinta hewan.</p>
+    <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+  </div>
+</div>
+
+      <!-- CARD 2 - Katalog Bibit (MERN) -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/project/Bitshop.png" alt="katalog" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Katalog Bibit – MERN Stack</h3>
+          <p class="text-secondary mb-4">Aplikasi e-commerce katalog tanaman/bibit berbasis <strong>MongoDB, Express, React, dan Node.js</strong>.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 - Hydrotech AB -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img//project/HydrotechAb.png" alt="hydrotech-ab" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Hydrotech AB Monitoring</h3>
+          <p class="text-secondary mb-4">Sistem <strong>IoT monitoring kualitas air</strong> dan kontrol otomatis pupuk AB Mix untuk hidroponik.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
+      <!-- CARD 4 - Warehouse Management -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/project/Warehouse.png" alt="warehouse" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Warehouse Management</h3>
+          <p class="text-secondary mb-4">Aplikasi <strong>web manajemen gudang</strong> untuk monitoring stok dan keluar-masuk barang berbasis Laravel.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
+      <!-- CARD 5 - Hydrozoner React IoT -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/project/zooner.jpg" alt="hydrozoner" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Hydrozoner IoT</h3>
+          <p class="text-secondary mb-4">Aplikasi <strong>React + IoT</strong> untuk sterilisasi air minum ternak secara otomatis dan real-time monitoring.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
+      <!-- CARD 6 - Pakan Burung Otomatis -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/project/burung.jpeg" alt="pakan-burung" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Pakan Burung Otomatis</h3>
+          <p class="text-secondary mb-4">Sistem pemberian pakan otomatis berbasis IoT dengan kontrol melalui <strong>web async</strong>.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
+      <!-- CARD 8 - Web Antrian Laravel -->
+      <div class="rounded-lg overflow-hidden shadow-md dark:bg-slate-700 transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300">
+        <img src="dist/img/project/poli.png" alt="antrian" class="w-full h-56 object-cover" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-dark dark:text-white mb-2">Website Antrian Online Poliklinik</h3>
+          <p class="text-secondary mb-4">Aplikasi berbasis <strong>Laravel</strong> yang memudahkan pasien untuk mengambil antrian poliklinik secara online.</p>
+          <a href="https://github.com/IQ1341" target="_blank" class="inline-flex items-center px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors rounded-lg">View Project</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-
     <!-- portfolii section end -->
-
-    
-
-    <!-- client section start -->
-    <!-- client section end -->
     
     <!-- Blog Section Start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-100 dark:bg-dark">
-        <div class="container">
-            <!-- Heading -->
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan Terkini</h2>
-                    <p class="font-medium text-md text-secondary md:text-lg">
-                        Beberapa blog pribadi sebagai sarana berbagi pemikiran, pengalaman, dan dokumentasi perjalanan saya.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Blog Cards -->
-            <div class="flex flex-wrap justify-center">
-                <!-- Blog Card 1 -->
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
-                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
-                        <div class="py-6 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
-                                    Ngoding Seru Bang!
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6">
-                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
-                            </p>
-                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
-                                Baca Selengkapnya
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
-                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
-                        <div class="py-6 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
-                                    Ngoding Seru Bang!
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6">
-                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
-                            </p>
-                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
-                                Baca Selengkapnya
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10 hover:shadow-2xl transition-all duration-300">
-                        <img src="https://picsum.photos/id/9/800/600" alt="programming" class="w-full h-56 object-cover" />
-                        <div class="py-6 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-dark dark:text-white hover:text-primary transition-colors duration-300">
-                                    Ngoding Seru Bang!
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-secondary mb-6">
-                                Ngoding, atau pemrograman, adalah proses kreatif menciptakan kode-kode yang menjalankan program dan membangun aplikasi.
-                            </p>
-                            <a href="#" class="inline-block font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:scale-105 transition-transform duration-300 shadow-md">
-                                Baca Selengkapnya
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Tambahkan Blog Card lainnya dengan struktur sama -->
-            </div>
-        </div>
-    </section>
     <!-- Blog Section End -->
     
-    <section id="pengalaman" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-900">
-        <div class="container">
-            <div class="text-center mb-16 px-4" data-aos="fade-up">
-                <h4 class="text-primary font-semibold text-lg mb-2">Pengalaman</h4>
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark dark:text-white">Riwayat Pengalaman</h2>
-                <p class="mt-4 text-secondary md:text-lg">Berikut adalah timeline beberapa pengalaman profesional & organisasi saya.</p>
-            </div>
-            
-            <!-- Timeline -->
-            <div class="relative border-l-4 border-primary pl-6 space-y-10 px-4" data-aos="fade-up" data-aos-delay="200">
-                
-                <!-- Item 1 -->
-                <div class="relative group">
-                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
-                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
-                        <h3 class="text-xl font-semibold text-dark dark:text-white">Magang Web Developer – PT Digital Kreatif</h3>
-                        <p class="text-sm text-primary font-medium mt-1">Jan 2024 – Apr 2024</p>
-                        <p class="text-base text-secondary mt-2">Mengembangkan website dengan Laravel dan React. Berkolaborasi dengan tim UI/UX dalam project internal.</p>
-                    </div>
-                </div>
-                
-                <!-- Item 2 -->
-                <div class="relative group">
-                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
-                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
-                        <h3 class="text-xl font-semibold text-dark dark:text-white">Freelance Web Developer</h3>
-                        <p class="text-sm text-primary font-medium mt-1">Sep 2023 – Des 2023</p>
-                        <p class="text-base text-secondary mt-2">Membangun sistem booking studio musik berbasis web menggunakan PHP, Bootstrap, dan MySQL.</p>
-                    </div>
-                </div>
-                
-                <!-- Item 3 -->
-                <div class="relative group">
-                    <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
-                    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
-                        <h3 class="text-xl font-semibold text-dark dark:text-white">Panitia Seminar Nasional Teknologi</h3>
-                        <p class="text-sm text-primary font-medium mt-1">Mei 2023</p>
-                        <p class="text-base text-secondary mt-2">Bertugas sebagai divisi publikasi & dokumentasi dalam seminar nasional bertema AI dan Web 4.0.</p>
-                    </div>
-                </div>
-                
-                <!-- Tambahkan item lainnya di sini -->
+<section id="pengalaman" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-900">
+  <div class="container">
+    <div class="text-center mb-16 px-4" data-aos="fade-up">
+      <h4 class="text-primary font-semibold text-lg mb-2">Pengalaman</h4>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark dark:text-white">Riwayat Pengalaman</h2>
+      <p class="mt-4 text-secondary md:text-lg">Berikut adalah timeline beberapa pengalaman profesional & organisasi saya.</p>
+    </div>
+
+    <!-- Timeline -->
+    <div class="relative border-l-4 border-primary pl-6 space-y-10 px-4" data-aos="fade-up" data-aos-delay="200">
+
+        
+        
+        
+        <!-- Item 7 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Software Engineer & Elektrikal – PT Habibi Digital Nusantara</h3>
+                <p class="text-sm text-primary font-medium mt-1">2025 – sekarang</p>
+                <p class="text-base text-secondary mt-2">Bertanggung jawab dalam pengembangan software dan perakitan perangkat IoT berbasis sensor dan mikrokontroler untuk berbagai proyek internal dan eksternal.</p>
             </div>
         </div>
-    </section>
+        <!-- Item 6 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Freelance Full Stack Developer</h3>
+                <p class="text-sm text-primary font-medium mt-1">2024 – sekarang</p>
+                <p class="text-base text-secondary mt-2">Mengembangkan berbagai proyek aplikasi mobile, web, dan perangkat IoT untuk klien individu maupun organisasi.</p>
+            </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Project Manager – Hydrotec AB</h3>
+                <p class="text-sm text-primary font-medium mt-1">Magang, 2024</p>
+                <p class="text-base text-secondary mt-2">Mengelola proyek pembuatan alat dan aplikasi monitoring air bernama Hydrotec AB selama magang di PT Habibi Digital Nusantara.</p>
+            </div>
+        </div>
+        
+        <!-- Item 4 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Pertukaran Mahasiswa Merdeka – Politeknik Negeri Pontianak</h3>
+                <p class="text-sm text-primary font-medium mt-1">2023</p>
+                <p class="text-base text-secondary mt-2">Lolos program pertukaran mahasiswa merdeka batch 4 dan menjalani perkuliahan lintas kampus di Pontianak.</p>
+            </div>
+        </div>
+        
+        
+        <!-- Item 3 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Lolos Pendanaan PKM – Bidang Karsa Cipta</h3>
+                <p class="text-sm text-primary font-medium mt-1">2023</p>
+                <p class="text-base text-secondary mt-2">Menjadi ketua tim dalam Program Kreativitas Mahasiswa bidang Karsa Cipta, mengembangkan alat inovatif berbasis teknologi.</p>
+            </div>
+        </div>
+        <!-- Item 1 -->
+        <!-- Item 2 -->
+        <div class="relative group">
+            <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+            <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+                <h3 class="text-xl font-semibold text-dark dark:text-white">Anggota UKM Robotika – Divisi Pemrograman</h3>
+                <p class="text-sm text-primary font-medium mt-1">2022 – 2023</p>
+                <p class="text-base text-secondary mt-2">Aktif sebagai anggota divisi pemrograman, mengembangkan algoritma untuk robot line follower dan IoT berbasis sensor.</p>
+            </div>
+        </div>
+        <div class="relative group">
+          <span class="absolute -left-[30px] top-1 w-6 h-6 bg-primary rounded-full ring-4 ring-white dark:ring-slate-800 transition duration-300 group-hover:scale-110"></span>
+          <div class="bg-white dark:bg-slate-800 rounded-lg shadow-md p-6 group-hover:shadow-xl transition duration-300">
+            <h3 class="text-xl font-semibold text-dark dark:text-white">Volunteer Expo JTI – SEA IT</h3>
+            <p class="text-sm text-primary font-medium mt-1">2022</p>
+            <p class="text-base text-secondary mt-2">Menjadi volunteer dalam kegiatan Expo JTI sebagai tim SEA IT yang bertanggung jawab pada sisi teknis dan dokumentasi acara.</p>
+          </div>
+        </div>
+        
+    </div>
+  </div>
+</section>
+
     
     <!-- layanan section start -->
     <section id="layanan" class="pt-36 pb-24 bg-white dark:bg-slate-900">
@@ -552,6 +587,7 @@
         </div>
     </section>
     <!-- layanan section end -->
+     
 <!-- sertifikasi section start -->
 <section id="sertifikasi" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-900">
   <div class="container">
@@ -560,30 +596,71 @@
       <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up">
         <h4 class="text-lg text-primary font-semibold mb-2">Sertifikasi</h4>
         <h2 class="text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl mb-4">Pengakuan Kompetensi</h2>
-        <p class="text-secondary md:text-lg">Berikut adalah beberapa sertifikat yang saya peroleh dari pelatihan dan program pengembangan skill.</p>
+        <p class="text-secondary md:text-lg">Berikut adalah beberapa sertifikat yang saya peroleh dari pelatihan dan program pengembangan skill dan Program lainnya.</p>
       </div>
     </div>
 
-    <!-- Sertifikat Cards -->
-    <div class="flex flex-wrap justify-center gap-8 px-4" data-aos="fade-up" data-aos-delay="100">
-      <!-- Sertifikat 1 -->
-      <div onclick="openModal('img1')" class="cursor-pointer w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
-        <img id="img1" src="./dist/img/8.png" alt="sertifikat 1" class="w-full rounded-md mb-4 object-cover h-48">
-        <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Back-End Developer - Dicoding</h3>
-        <p class="text-sm text-secondary">Diterbitkan: Jan 2024</p>
-      </div>
+    <!-- Scrollable Sertifikat Cards -->
+    <div class="px-4 overflow-x-auto scrollbar-hide">
+      <div class="flex gap-6 flex-nowrap" data-aos="fade-up" data-aos-delay="100">
+        <!-- Sertifikat 1 -->
+        <div onclick="openModal('img1')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img1" src="./dist/img/sertifikasi/Sertifikat HabibiGarden_page-0001.jpg" alt="sertifikat 1" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Internship Software Engineer - PT HabibiGarden</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 12 Desember 2024</p>
+          </div>
+        </div>
 
-      <!-- Sertifikat 2 -->
-      <div onclick="openModal('img2')" class="cursor-pointer w-full sm:w-5/12 lg:w-1/3 bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 hover:shadow-xl transition duration-300">
-        <img id="img2" src="https://i.imgur.com/IdYlxZg.jpg" alt="sertifikat 2" class="w-full rounded-md mb-4 object-cover h-48">
-        <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Front-End Developer - Coursera</h3>
-        <p class="text-sm text-secondary">Diterbitkan: Okt 2023</p>
-      </div>
+        <div onclick="openModal('img2')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img2" src="./dist/img/sertifikasi/PMM Batch 4_page-0001.jpg" alt="sertifikat 1" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">PMM Batch 4 - Kemendikbudristek</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 23 Agustus 2024</p>
+          </div>
+        </div>
 
-      <!-- Tambah lebih banyak sertifikat di sini -->
+        <div onclick="openModal('img3')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img3" src="./dist/img/sertifikasi/Sertifikat_BNSP_JWD_page-0001.jpg" alt="sertifikat 1" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Web Developer - BNSP</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 06 September 2023</p>
+          </div>
+        </div>
+
+        <!-- Sertifikat 2 -->
+        <div onclick="openModal('img4')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img4" src="./dist/img/sertifikasi/Sertifikat_VSGA_page-0001.jpg" alt="sertifikat 2" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Web Developer - VSGA_Kominfo</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 11 Agustus 2023</p>
+          </div>
+        </div>
+
+        <!-- Sertifikat 3 -->
+        <div onclick="openModal('img5')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img5" src="./dist/img/sertifikasi/Sertifikat_BNSP_JNA_page-0001.jpg" alt="sertifikat 3" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Network Administrator - BNSP</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 1 November 2022</p>
+          </div>
+        </div>
+
+        <!-- Sertifikat 4 -->
+        <div onclick="openModal('img6')" class="cursor-pointer flex-shrink-0 w-72 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="p-4">
+            <img id="img6" src="./dist/img/sertifikasi/sertifikat vsga jna_page-0001.jpg" alt="sertifikat 4" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h3 class="text-lg font-semibold text-dark dark:text-white mb-1">Network Administrator - VSGA_Kominfo</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-300">Diterbitkan: 16 September 2022</p>
+          </div>
+        </div>
+
+        <!-- Tambah sertifikat lain sesuai kebutuhan -->
+      </div>
     </div>
   </div>
 </section>
+
 <!-- sertifikasi section end -->
 
 <div id="imageModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 hidden">
@@ -613,13 +690,13 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 px-4 text-center" data-aos="fade-up" data-aos-delay="100">
                 <!-- Counter 1 -->
                 <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
-                    <h3 class="text-4xl font-bold text-primary mb-2">20+</h3>
+                    <h3 class="text-4xl font-bold text-primary mb-2">50+</h3>
                     <p class="text-dark dark:text-white text-lg font-medium">Project Selesai</p>
                 </div>
                 
                 <!-- Counter 2 -->
                 <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow hover:shadow-xl transition duration-300">
-                    <h3 class="text-4xl font-bold text-primary mb-2">5+</h3>
+                    <h3 class="text-4xl font-bold text-primary mb-2">15+</h3>
                     <p class="text-dark dark:text-white text-lg font-medium">Klien Freelance</p>
                 </div>
                 
